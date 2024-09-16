@@ -1,8 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from app.config import Config  # Corrigido para app.config
-
+from app.config import Config
 # Instancia as extensões sem inicializá-las ainda
 db = SQLAlchemy()
 migrate = Migrate()
