@@ -1,6 +1,6 @@
 from flask import request, jsonify, current_app
 from app import db
-from app.models import Manifestacao, Usuari
+from app.models import Manifestacao, Usuario
 
 @current_app.route('/manifestacao/<int:id>', methods=['PUT'])
 def atualizar_manifestacao(id):
