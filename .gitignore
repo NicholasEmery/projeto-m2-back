@@ -1,4 +1,5 @@
 vm-projeto-m2
 README.md
+.env
 app/__pycache__
 app/routes/__pycache__
